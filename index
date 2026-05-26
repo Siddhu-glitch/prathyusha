@@ -1,0 +1,262 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌸 For Prathyusha 🌸</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Poppins:wght@300;400;600&display=swap');
+
+        :root {
+            --bg-color: #fdfbf7;
+            --text-main: #4a4a4a;
+            --text-accent: #b08d6a;
+            --card-bg: #ffffff;
+            --highlight: #f4eae4;
+            --note-bg-1: #ffeef2;
+            --note-bg-2: #eef7ff;
+            --note-bg-3: #f0ffee;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 80px 20px 40px;
+            background: linear-gradient(to bottom, #f9ecec, var(--bg-color));
+        }
+
+        h1 {
+            font-family: 'Lora', serif;
+            font-size: 3.5rem;
+            color: var(--text-accent);
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            font-weight: 300;
+            max-width: 600px;
+            margin: 0 auto;
+            color: #7a7a7a;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Banner */
+        .affirmation-banner {
+            background-color: var(--highlight);
+            text-align: center;
+            padding: 30px;
+            border-radius: 20px;
+            margin-bottom: 50px;
+            font-family: 'Lora', serif;
+            font-size: 1.3rem;
+            color: var(--text-accent);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+        }
+
+        /* Section Titles */
+        .section-title {
+            text-align: center;
+            font-family: 'Lora', serif;
+            color: var(--text-accent);
+            font-size: 2rem;
+            margin: 50px 0 30px;
+        }
+
+        /* Grid for Favorite Things */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            padding: 30px 25px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.04);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            font-family: 'Lora', serif;
+            color: var(--text-accent);
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+        }
+
+        .icon {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        /* Music Section */
+        .music-section {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            margin: 40px 0;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.04);
+        }
+
+        /* Cute Reminders (Sticky Notes) */
+        .reminders-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .note {
+            padding: 25px;
+            border-radius: 15px;
+            font-size: 0.95rem;
+            box-shadow: 3px 4px 10px rgba(0,0,0,0.05);
+            position: relative;
+        }
+
+        .note::before {
+            content: '📌';
+            position: absolute;
+            top: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 1.5rem;
+        }
+
+        .note-1 { background-color: var(--note-bg-1); }
+        .note-2 { background-color: var(--note-bg-2); }
+        .note-3 { background-color: var(--note-bg-3); }
+
+        /* Facts & Myths */
+        .fact-box {
+            background-color: #fff;
+            border-left: 5px solid var(--text-accent);
+            padding: 20px 25px;
+            margin-bottom: 20px;
+            border-radius: 0 15px 15px 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+        }
+
+        .fact-box h4 {
+            margin: 0 0 10px 0;
+            color: var(--text-accent);
+            font-family: 'Lora', serif;
+        }
+
+        footer {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #fff;
+            margin-top: 60px;
+            border-top: 1px solid #eee;
+        }
+
+        .footer-note {
+            font-family: 'Lora', serif;
+            font-style: italic;
+            color: var(--text-accent);
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Hey, Prathyusha ✨</h1>
+        <p class="subtitle">Welcome to your personal safe space. A gentle reminder to love yourself a little more today, because you are—and always should be—your first priority. 🌷🤍</p>
+    </header>
+
+    <div class="container">
+        
+        <div class="affirmation-banner">
+            "You are never alone. Protect your peace, eat good food, and remember that you are the main character of your beautiful life." 🦋✨
+        </div>
+
+        <h2 class="section-title">🎶 Set the Vibe 🎶</h2>
+        <div class="music-section">
+            <p>Some gentle lo-fi to keep you company while you read, relax, or sleep. 🎧💤</p>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWWQRwui0ExPn?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+
+        <h2 class="section-title">🌻 Things That Feel Like Home 🌻</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="icon">🎧🍲💤</div>
+                <h3>Comfort & Peace</h3>
+                <p>On days when the world is too loud, find your center. Eat a comforting bowl of <strong>curd rice</strong> 🍚, put on your favorite <strong>music</strong> 🎵, and remember that simply <strong>sleeping</strong> 🛌 is a valid way to heal.</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🌅🚗🏔️</div>
+                <h3>Journeys & Views</h3>
+                <p>Breathe in the fresh air. Chase the <strong>sunrise and sunset</strong> 🌇, clear your mind with <strong>late night walks and long drives</strong> 🚙, or challenge yourself by <strong>hiking and trekking</strong> 🏕️. The world is yours.</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🪷✉️📚</div>
+                <h3>Beautiful Details</h3>
+                <p>Surround yourself with growth. Read good <strong>books</strong> 📖, cherish <strong>handwritten notes</strong> 💌, and nurture your <strong>plants</strong> 🌱. Like <strong>lotuses, roses, jasmine, and sunflowers</strong>, you always find the light.</p>
+            </div>
+        </div>
+
+        <h2 class="section-title">💌 Gentle Reminders Just For You 💌</h2>
+        <div class="reminders-grid">
+            <div class="note note-1">
+                <strong>Hydrate!</strong> 💧<br><br>Drink some water right now. You are basically a very cute, complicated houseplant with emotions. 🪴
+            </div>
+            <div class="note note-2">
+                <strong>Breathe</strong> 🌬️<br><br>Your best is allowed to look different every single day. Some days your best is climbing a mountain, other days your best is just getting out of bed. Both are valid. 🤍
+            </div>
+            <div class="note note-3">
+                <strong>Let Go</strong> 🎈<br><br>You don't have to carry everything all at once. Put the heavy thoughts down for tonight. They will still be there tomorrow if you really want them. 🌙
+            </div>
+        </div>
+
+        <h2 class="section-title">✨ Little Truths About Life ✨</h2>
+        
+        <div class="fact-box">
+            <h4>🌸 Fact: The Lotus Effect</h4>
+            <p>Did you know that lotus flowers plunge into muddy water every single night, only to miraculously re-bloom perfectly clean the next morning? Just like you, no matter how messy things get, you will always rise and shine again.</p>
+        </div>
+
+        <div class="fact-box">
+            <h4>🌧️ Fact: Why Rain Smells Good</h4>
+            <p>The smell of rain hitting dry earth is called "Petrichor." Human noses are extremely sensitive to it, and science shows smelling it actually reduces stress and calms the brain. Perfect for those late-night drives!</p>
+        </div>
+
+        <div class="fact-box">
+            <h4>🎭 Myth: "You need to have it all figured out."</h4>
+            <p><strong>Truth:</strong> Absolutely nobody has it all figured out! Adulthood is just everyone pretending they know what they are doing. It’s okay to just exist, learn as you go, and change your mind. 🛤️</p>
+        </div>
+
+        <div class="fact-box">
+            <h4>💔 Myth: "Being alone means you are lonely."</h4>
+            <p><strong>Truth:</strong> Solitude is a superpower. Spending time alone—whether reading a book, driving, or looking at the sunset—is how you recharge and learn to love your own company. You are your own best friend! 🌻</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p class="footer-note">"Choose yourself, Prathyusha. Every single day." 💖</p>
+    </footer>
+
+</body>
+</html>
